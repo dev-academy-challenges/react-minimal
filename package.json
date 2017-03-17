@@ -1,7 +1,8 @@
 {
   "name": "react-minimal",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "the essence of a react component",
+  "repository": "https://github.com/dev-academy-challenges/react-minimal.git",
   "main": "index.js",
   "scripts": {
     "build": "browserify -t babelify index.js -o bundle.js"
