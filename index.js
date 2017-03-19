@@ -1,11 +1,10 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
 
-
 function helloTemplate (props) {
   return (
     <div>hello {props.name}</div>
-  ) 
+  )
 }
 
 var data = { name: 'mix' }
