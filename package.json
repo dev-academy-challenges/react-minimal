@@ -5,7 +5,7 @@
   "repository": "https://github.com/dev-academy-challenges/react-minimal.git",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch . server & webpack --watch"
+    "start": "nodemon server & webpack --watch"
   },
   "babel": {
     "presets": [
