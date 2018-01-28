@@ -1,10 +1,10 @@
-var express = require('express')
+const express = require('express')
 
-var PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
 
-var server = express()
+const server = express()
 server.use(express.static('public'))
 
-server.listen(PORT, function () {
+server.listen(PORT, () => {
   console.log('Listening on port', PORT)
 })
