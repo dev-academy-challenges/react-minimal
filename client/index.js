@@ -1,5 +1,5 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
+const React = require('react')
+const ReactDOM = require('react-dom')
 
 function helloTemplate (props) {
   return (
@@ -7,10 +7,9 @@ function helloTemplate (props) {
   )
 }
 
-var data = { name: 'mix' }
-var view = helloTemplate(data)
+const data = {name: 'humans'}
+const view = helloTemplate(data)
 
-var placeToMount = document.getElementById('root')
+const placeToMount = document.getElementById('root')
 
 ReactDOM.render(view, placeToMount)
-
