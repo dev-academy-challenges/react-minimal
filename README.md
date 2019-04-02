@@ -12,8 +12,8 @@ As part of an introduction to React, this repo attempts to show React in a most 
 Clone this repo, and from the repo's folder
 
 ```sh
-yarn
-yarn start
+npm install
+npm start
 ```
 
 
@@ -22,7 +22,7 @@ yarn start
 * Add new mount points and render components into them.
 * Add new components and use them inside existing components.
 * Render complex data structures (objects in objects) as props.
-* Check out the `yarn start` script and the `webpack.config.js` file.
+* Check out the `npm start` script and the `webpack.config.js` file.
 * Conditionally show child components using a ternary operator.
 * Create child components from an array of data using `.map()`.
 
