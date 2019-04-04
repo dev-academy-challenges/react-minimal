@@ -1,7 +1,7 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
 
-const data = {name: 'humans'}
+const data = { name: 'humans' }
 
 function helloTemplate (props) {
   return (
