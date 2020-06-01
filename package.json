@@ -22,12 +22,12 @@
   "author": "EDA",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
