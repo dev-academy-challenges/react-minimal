@@ -5,9 +5,11 @@
   "repository": "https://github.com/dev-academy-challenges/react-minimal.git",
   "main": "index.js",
   "scripts": {
+    "start": "run-p webpack server",
+    "dev": "run-p client server",
+    "webpack": "webpack",
     "client": "webpack --watch",
-    "server": "node server",
-    "start": "run-p client server"
+    "server": "node server"
   },
   "babel": {
     "presets": [

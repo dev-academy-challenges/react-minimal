@@ -13,7 +13,7 @@ Clone this repo, and from the repo's folder
 
 ```sh
 npm install
-npm start
+npm run dev
 ```
 
 
@@ -22,7 +22,7 @@ npm start
 * Add new mount points and render components into them.
 * Add new components and use them inside existing components.
 * Render complex data structures (objects in objects) as props.
-* Check out the `npm start` script and the `webpack.config.js` file.
+* Check out the `npm run dev` script and the `webpack.config.js` file.
 * Conditionally show child components using a ternary operator.
 * Create child components from an array of data using `.map()`.
 
