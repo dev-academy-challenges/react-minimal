@@ -1,5 +1,8 @@
 const path = require('path')
 
+// contents of .eslintignore
+// public/bundle.*
+
 module.exports = {
   entry: './client/index.js',
   output: {
