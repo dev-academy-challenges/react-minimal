@@ -56,6 +56,9 @@
     "singleQuote": true
   },
   "eslintConfig": {
-    "extends": "eda/react"
+    "extends": "eda/react",
+    "ignorePatterns": [
+      "bundle.js"
+    ]
   }
 }
