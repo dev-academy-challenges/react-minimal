@@ -36,7 +36,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "eslint": "^8.9.0",
-    "eslint-config-eda": "^0.3.5",
+    "eslint-config-eda": "^1.1.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.0",
     "eslint-plugin-node": "^11.1.0",
